@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+
+
+#music{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+
+
+.heading{
+    font-family: "Metal Mania";
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    color: #000000;
+    font: 30px;
+    
+    padding: 20px;
+  
+}
+
+.product-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+
+  .products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .product-card {
+    background: white;
+    width: 300px;
+    
+    overflow: hidden;
+
+  }
+  .product-image {
+    position: relative;
+    text-align: center;
+  }
+
+  .product-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-title {
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 50px; 
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333; 
+  }
+  
+
+
+  .product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+  }
+
+  .product-price {
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+
+  .add-to-cart {
+    /* background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; */
+
+    cursor: pointer;
+    padding: 8px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4%;
+    background: #56CCF2;
+
+  }
+
+
+  .add-to-cart:hover {
+    background-color: #3f78b9;
+  }
+
+  .see-cart{
+
+    display: flex;
+    margin-top: 30px;
+    color: #56CCF2;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+    background-color: #777;
+    border: none;
+    border-radius: 7px;
+    margin:auto;
+    cursor: pointer;
+  }
