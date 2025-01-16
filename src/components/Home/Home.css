@@ -1,0 +1,102 @@
+/* Hero Section */
+.hero-section {
+    background-color: #686e73; /* Gray background */
+    color: #fff;
+    text-align: center;
+    padding: 6rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 6rem;
+    font-family: "Georgia", serif;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .album-button {
+    background-color: transparent;
+    color: #00bfff;
+    border: 2px solid #00bfff;
+    padding: 0.5rem 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .album-button:hover {
+    background-color: #00bfff;
+    color: #fff;
+  }
+  
+  .play-icon {
+    cursor: pointer;
+    display: block;
+    border: 2px solid #56CCF2;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 200;
+    margin: 20px auto;
+    background: inherit;
+    color: #56CCF2;
+  }
+  
+  .play-icon:hover {
+    background-color: #00bfff;
+    color: #fff;
+  }
+  
+  /* Tours Section */
+  .tours-section {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .tours-title {
+    font-size: 3rem;
+    font-family: "Georgia", serif;
+    margin-bottom: 2rem;
+  }
+  
+  .tours-table {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+  .tour-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 0;
+  }
+  
+  .tour-date,
+  .tour-city,
+  .tour-venue {
+    flex: 1;
+    text-align: left;
+    font-size: 1.4rem;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .buy-tickets-button {
+    background-color: #00bfff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .buy-tickets-button:hover {
+    background-color: #007bff;
+  }

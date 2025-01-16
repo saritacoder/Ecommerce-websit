@@ -1,19 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
-
-
-import AppNavbar from './components/Navbar';
-import ProductList from './components/ProductList';
-
+import Cart from './components/Cart';
+import Footer from './components/Footer/Footer';
+import ProductList from './components/Store';
+import About from './components/About/About';
+import Home from './components/Home/Home'
 function App() {
+
+  
   return (
-    <>
-
-<AppNavbar />
-
+<>
+    {/* <AppNavbar toggleDrawer={toggleDrawer} /> */}
+    
+{/* <Cart  toggleDrawer={toggleDrawer} isopen={isopen}  /> */}
+<Cart />
 <ProductList />
-    </>
+<Footer />
+<About />
+<Home />
+</>
+
+   
   );
 }
 
 export default App;
+
+
+
