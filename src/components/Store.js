@@ -26,7 +26,7 @@ const productsArr = [
   }
 ];
 
-const ProductList = () => {
+const Store = ({toggleDrawer}) => {
   return (
     <div className="container my-5">
       <h1 className="text-center mb-5" style={{ fontStyle: 'italic' }}>Music</h1>
@@ -52,8 +52,11 @@ const ProductList = () => {
         <Button type="button" variant="secondary" >See the cart</Button>
       </div>
       
+       {/* <Button id="checkId" variant="primary" onClick={toggleDrawer}>
+              Cart
+            </Button> */}
     </div>
   );
 };
 
-export default ProductList;
+export default Store;

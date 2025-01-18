@@ -7,12 +7,12 @@ import BandMembers from '../../Assets/BandMembers.jpeg';
 const About = () => {
   return (
     <div>
-      {/* Header Section */}
-      <div className="container-fluid text-center py-5 bg-secondary text-white">
+     
+      {/* <div className="container-fluid text-center py-5 bg-secondary text-white">
         <h1> The Generics</h1>
-      </div>
+      </div> */}
 
-      {/* About Section */}
+      
       <div className="container my-5">
         <h1 className="text-center mb-4">ABOUT</h1>
 
@@ -23,7 +23,7 @@ const About = () => {
             src={BandMembers}
             alt="Band Members"
             className="img-fluid rounded-circle float-start me-4 mb-2"
-            style={{ maxWidth: '300px', maxHeight: '300px', objectFit: 'cover' }}
+            style={{ maxWidth: '150px', maxHeight: '300px', objectFit: 'cover' }}
           />
           {/* Text Wrapping Around Image */}
           <p>

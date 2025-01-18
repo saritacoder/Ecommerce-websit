@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Button, Box, Drawer } from "@mui/material";
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Checkbox } from "@mui/material";
 import AppNavbar from './AppNavbar';
+import Store from './Store';
 
 const initialCartElements = [
   { title: 'Colors', price: 100, imageUrl: 'https://prasadyash2411.github.io/ecom-website/img/Album%201.png', quantity: 2 },
@@ -18,7 +19,7 @@ const Cart = () => {
   
 
   const toggleDrawer = () => {
-    console.log("toggleDrawer function triggered");  
+    console.log(" function triggered");  
     setIsOpen(!isopen);
   };
   const handleRemoveItem = (itemTitle) => {
@@ -29,8 +30,9 @@ const Cart = () => {
 
   return (
     <div>
-     
-      <AppNavbar toggleDrawer={toggleDrawer} />
+     <Store toggleDrawer={toggleDrawer} />
+    
+     <AppNavbar toggleDrawer={toggleDrawer} />
       <Drawer
         anchor="right"
         open={isopen}
@@ -77,9 +79,13 @@ const Cart = () => {
                 ))}
               </TableBody>
             </Table>
+            
           </TableContainer>
+          
         </Box>
+      
       </Drawer>
+      
     </div>
   );
 };
