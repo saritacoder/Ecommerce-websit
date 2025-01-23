@@ -1,0 +1,260 @@
+/* .cart {
+    position: fixed;
+    right: 1rem;
+    top: 5rem;
+    animation: CartAnimate 200ms ease-in;
+  } */
+  
+
+  /* .cart {
+    position: fixed !important;
+    right: 1rem !important;
+    top: 5rem !important;
+    animation: CartAnimate 200ms ease-in !important;
+  }
+
+  .cart-header {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .cart-header h3 {
+    display: inline;
+  }
+  
+  .cart-close-btn,
+  .purchase-btn {
+    padding: 3px 8px;
+    font-size: inherit;
+    font-weight: bold;
+    background-color: #bed7dc;
+    border: 1px solid #60949e;
+    border-radius: 5px;
+    float: inline-end;
+  }
+  .cart-close-btn:hover,
+  .purchase-btn:hover {
+    cursor: pointer;
+    background-color: #81c2cf;
+    border-color: #60949e;
+  }
+  
+  .cart-total {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-footer {
+    text-align: center;
+  }
+  
+  @keyframes CartAnimate {
+    from {
+      transform: translateX(560px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } */
+
+
+
+
+  /* Cart.css */
+/* .cart {
+  position: fixed;
+  right: 1rem;
+  top: 5rem;
+  width: 100px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  animation: CartAnimate 200ms ease-in;
+  z-index: 100;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.cart-header h3 {
+  font-family: "Arial Black", sans-serif;
+  font-size: 1.5rem;
+}
+
+.cart-close-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cart-close-btn:hover {
+  color: #ff4d4f;
+}
+
+.cart-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.purchase-btn {
+  padding: 0.8rem 2rem;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.purchase-btn:hover {
+  background-color: #138496;
+}
+
+@keyframes CartAnimate {
+  from {
+    transform: translateX(560px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} */
+
+
+
+
+.cart {
+  position: fixed;
+  right: 1rem;
+  top: 5rem;
+  padding: 15px;
+  width: 40%;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  z-index: 1050; 
+   animation: CartAnimate 200ms ease-in; 
+}  
+
+
+.cart-header {
+  display: flex;
+ 
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.cart-close-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6c757d;
+  cursor: pointer;
+  padding: 0;
+}
+
+.cart-close-btn:hover {
+  color: #343a40;
+}
+
+.cart-body {
+  padding: 1rem;
+}
+
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.quantity-input {
+  width: 70px;
+}
+
+.cart-footer {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #dee2e6;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.purchase-btn {
+  background-color: #17a2b8;
+  border: none;
+  padding: 0.8rem;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+.purchase-btn:hover {
+  background-color: #138496;
+}
+
+.table th {
+  font-weight: bold;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table td {
+  padding: 1rem 0.5rem;
+  vertical-align: middle;
+}
+
+.btn-danger {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+@keyframes CartAnimate {
+  from {
+    transform: translateX(560px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+
+
+.cart-header button:hover {
+  transform: scale(1.05); /* Instead of modifying padding or margin */
+}
+
