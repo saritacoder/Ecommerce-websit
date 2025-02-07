@@ -32,6 +32,7 @@
   }
   
   .cart-btn img {
+    display: block;
     width: 28px; /* Set icon size */
     height: 28px;
   }

@@ -6,10 +6,17 @@
     margin-left: 30rem;
     top: 50%; 
     left: 50%; 
-    background-color: #f8f9fa; 
+    /* background-color: #f8f9fa;  */
+    background-color:  #38015c;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.get-touch{
+    background-color: white;
+    color:white;
+    border-radius: 8px;
 }
 /* Form heading */
 .contact-container h1 {

@@ -24,7 +24,7 @@ const Contact = () => {
 
         try{
        
-        const res =  await fetch("https://ecommerce-881df-default-rtdb.firebaseio.com/userRecods.json",{
+        const res =  await fetch("https://ecom-4091c-default-rtdb.firebaseio.com/userRecods.json",{
             method:"POST",
             headers:{
                 "Content-Type" : "application/json"
@@ -59,7 +59,7 @@ console.log(resData);
 
   return (
     <div className="contact-container">
-    <h1>Get in touch!</h1>
+    <h1 className='get-touch'>Get in touch!</h1>
     <form onSubmit={submitData} className="contact-form">
      
       <input

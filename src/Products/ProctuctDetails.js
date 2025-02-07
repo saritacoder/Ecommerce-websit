@@ -31,7 +31,21 @@ const productsArr = [
       price: 100,
       imageUrl: 'https://prasadyash2411.github.io/ecom-website/img/Album%204.png',
       reviews:"Affordable and works like a charm, highly impressed!",
-    }
+    },
+    {
+      id: 5,
+      title: 'T-Shirt',
+      price: 500,
+      imageUrl: 'https://prasadyash2411.github.io/ecom-website/img/Shirt.png',
+      reviews:"Affordable and works like a charm, highly impressed!",
+  },
+  {
+      id: 6,
+      title: 'Coffee Cup',
+      price: 250,
+      imageUrl:'https://prasadyash2411.github.io/ecom-website/img/Cofee.png',
+      reviews:"Affordable and works like a charm, highly impressed!",
+  }
   ];
 
 
