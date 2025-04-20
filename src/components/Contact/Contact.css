@@ -1,4 +1,92 @@
+.contact-container {
+    padding: 50px;
+    max-width: 400px;
+    margin-left: 30rem;
+    top: 50%;
+    left: 50%;
+    /* background-color: #f8f9fa;  */
+    background-color: #38015c;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .get-touch {
+    background-color: white;
+    color: white;
+    border-radius: 8px;
+  }
+  /* Form heading */
+  .contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    /* font-size: 2rem; */
+    color: #333;
+  }
+  
+  /* Form styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form input {
+    padding: 10px;
+    font-size: 1.4rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .contact-form input:focus {
+    border-color: #007bff; /* Highlight color on focus */
+  }
+  
+  /* Submit button */
+  .contact-form button {
+    padding: 10px;
+    font-size: 1.4rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Status message styling */
+  .status-message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .success {
+    background-color: rgba(76, 175, 80, 0.3);
+    color: white;
+    border: 1px solid #4caf50;
+  }
+  
+  .error {
+    background-color: rgba(244, 67, 54, 0.3);
+    color: white;
+    border: 1px solid #f44336;
+  }
+  
 
+
+
+
+
+
+/* 
 
 .contact-container {
     padding: 50px;
@@ -6,7 +94,7 @@
     margin-left: 30rem;
     top: 50%; 
     left: 50%; 
-    /* background-color: #f8f9fa;  */
+   
     background-color:  #38015c;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -18,15 +106,14 @@
     color:white;
     border-radius: 8px;
 }
-/* Form heading */
+
 .contact-container h1 {
     text-align: center;
-    margin-bottom: 20px;
-    /* font-size: 2rem; */
+   
     color: #333;
 }
   
-/* Form styling */
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -42,10 +129,10 @@
 }
   
 .contact-form input:focus {
-    border-color: #007bff; /* Highlight color on focus */
+    border-color: #007bff;
 }
   
-/* Submit button */
+
 .contact-form button {
     padding: 10px;
     font-size: 1.4rem;
@@ -62,4 +149,4 @@
 }
   
 
-
+ */
