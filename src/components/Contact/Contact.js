@@ -25,7 +25,7 @@ const Contact = () => {
     const { name, email, phone } = userData
 
     try {
-      // First try the original Firebase URL
+      
       const res = await fetch("https://ecom-4091c-default-rtdb.firebaseio.com/userRecods.json", {
         method: "POST",
         headers: {
@@ -38,7 +38,7 @@ const Contact = () => {
         }),
       })
 
-      // If the original request fails, store data locally
+  
       if (!res.ok) {
         // Store in localStorage as a fallback
         const localData = JSON.parse(localStorage.getItem("contactSubmissions") || "[]")
@@ -55,7 +55,7 @@ const Contact = () => {
         setSubmitStatus({ message: "Data submitted successfully!", isError: false })
       }
 
-      // Clear the form in either case
+      // Clear   form 
       setUserData({
         name: "",
         email: "",

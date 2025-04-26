@@ -24,7 +24,7 @@ const Signup = () => {
     setIsLoading(true)
 
     try {
-      // First, create a user in Firebase Authentication
+    
       const res = await fetch(
         "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAbUy5evKN-VSMQp6pan71s_ydy5W0gD_s",
         {
@@ -44,7 +44,7 @@ const Signup = () => {
       setIsLoading(false)
 
       if (res.ok) {
-        // Store additional user data in Firebase Realtime Database
+        //  data in Firebase Realtime Database
         const userDataRes = await fetch("https://ecom-4091c-default-rtdb.firebaseio.com/users.json", {
           method: "POST",
           body: JSON.stringify({
@@ -63,7 +63,7 @@ const Signup = () => {
           localStorage.setItem("signupEmail", enteredEmail)
           localStorage.setItem("signupPassword", enteredPassword)
 
-          // Redirect to login page
+          
           navigate("/login")
         } else {
           throw new Error("Failed to store user data")

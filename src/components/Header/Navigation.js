@@ -14,13 +14,13 @@ const Navigation = () => {
     if (authCtx.isLoggedIn) {
       navigate("/store")
     } else {
-      navigate("/login") // Redirect to login if not logged in
+      navigate("/login")
     }
   }
 
   const handleLogout = () => {
-    authCtx.logout() // Call the logout function from the context
-    navigate("/login") // Redirect to login page after logout
+    authCtx.logout() 
+    navigate("/login") 
   }
 
   return (
@@ -32,7 +32,7 @@ const Navigation = () => {
           <Nav.Link href="/about">ABOUT</Nav.Link>
           <Nav.Link href="/contact">CONTACT US</Nav.Link>
           {!authCtx.isLoggedIn && <Nav.Link href="/login">Login</Nav.Link>}
-          {!authCtx.isLoggedIn && <Nav.Link href="/signup">Sign Up</Nav.Link>}
+          {/* {!authCtx.isLoggedIn && <Nav.Link href="/signup">Sign Up</Nav.Link>} */}
           {authCtx.isLoggedIn && <Nav.Link onClick={handleLogout}>Logout</Nav.Link>}
         </Nav>
       </Container>

@@ -63,12 +63,12 @@ const Login = () => {
         authCtx.login(data.idToken, enteredEmail) // Updated to pass email too
         navigate("/store")
       } else {
-        throw new Error("Wrong email or password") // Provide a custom error message
+        throw new Error("Wrong email or password") 
       }
     } catch (error) {
       setIsLoading(false)
-      setError(error.message) // Set error state to display the message
-      alert(error.message) // Alert the user with the error
+      setError(error.message) 
+      alert(error.message) 
     }
   }
 

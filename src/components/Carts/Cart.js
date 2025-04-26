@@ -4,21 +4,21 @@ import { useContext } from "react"
 import "./Cart.css"
 import CartItem from "./CartItem"
 import CartContext from "../../context/CartContext"
+import { AuthContext } from "../../context/LoginContext"
 import Modal from "../Modal/Modal"
 
 const Cart = () => {
   const cartCtx = useContext(CartContext)
+  const authCtx = useContext(AuthContext)
 
-  if (!cartCtx.showCart) return null
+  if (!cartCtx.showCart || !authCtx.isLoggedIn) return null
 
-  const handlePurchase = () => {
-    // Show alert
+  const handlePurchase = async () => {
     alert("Thank you for your purchase!")
 
-    // Clear the cart
     cartCtx.clearCart()
 
-    // Close the cart
+    
     cartCtx.toggleCart()
   }
 
@@ -45,5 +45,7 @@ const Cart = () => {
 }
 
 export default Cart
+
+
 
 

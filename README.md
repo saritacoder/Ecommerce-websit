@@ -1,3 +1,10 @@
+
+# used reactjs, firebase realtime database ,custom css
+. user frinedly means one user cant see details of others 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
