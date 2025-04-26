@@ -1,6 +1,5 @@
 
-# used reactjs, firebase realtime database ,custom css
-. user frinedly means one user cant see details of others 
+
 
 
 
